@@ -23,7 +23,7 @@ spec:
            claimName: {{ include "team-openslides.fullname" . }}-data
       containers:
        - name: openslides
-         image: jamct/openslides
+         image: dafwb/openslides
          imagePullPolicy: {{ .Values.app.pullpolicy }}
          volumeMounts:
            - name: os-data-vol
