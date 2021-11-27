@@ -1,6 +1,6 @@
 app:
-  name: club
-  domain: example.org
+  name: parteitag
+  domain: fdp-brandenburg.de
   pullpolicy: IfNotPresent
 
 # Storage limit for files
